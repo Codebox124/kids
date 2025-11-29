@@ -93,10 +93,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-12 md:py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-fredoka font-bold mb-4 text-gray-800">
+          <h2 className="text-2xl md:text-5xl font-fredoka font-bold mb-4 text-gray-800">
             Welcome to Kidz-Vidz! 🎉
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 font-comfortaa max-w-2xl mx-auto">
+          <p className="text-md md:text-xl text-gray-600 font-comfortaa max-w-2xl mx-auto">
             Explore our amazing collection of educational songs, fun lessons,
             and magical stories designed just for you!
           </p>
@@ -192,7 +192,7 @@ export default function Home() {
                 key={idx}
                 className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow text-center"
               >
-                <p className="text-2xl mb-3">{feature.title}</p>
+                <p className="text-2xl text-black mb-3">{feature.title}</p>
                 <p className="text-gray-700 font-comfortaa text-sm">
                   {feature.description}
                 </p>
