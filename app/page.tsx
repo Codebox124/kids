@@ -11,11 +11,12 @@ export default function Home() {
     {
       id: "songs",
       title: "SONGS",
-      description: "Catchy music and educational songs for kids",
+      description: "Catchy kids songs for fun and learning",
       icon: Music,
       image: "/hero-songs.jpg",
       color: "from-pink-400 to-yellow-300",
       textColor: "text-pink-600",
+      url: "https://www.youtube.com/playlist?list=PLx6Un6HiRuzKe144EZolzdVI-NOGgacJd",
       videos: [
         "Months Song",
         "Foods Song",
@@ -32,11 +33,12 @@ export default function Home() {
     {
       id: "lessons",
       title: "LESSONS",
-      description: "Educational content to help kids learn",
+      description: "Learn with educational videos for children",
       icon: BookOpen,
       image: "/hero-lessons.jpg",
       color: "from-blue-400 to-green-300",
       textColor: "text-blue-600",
+      url: "https://www.youtube.com/playlist?list=PLx6Un6HiRuzLOS5jqAokNBGQwfEoeLrIY&playnext=1&index=1",
       videos: [
         "ABC Learning",
         "Number Basics",
@@ -49,11 +51,12 @@ export default function Home() {
     {
       id: "stories",
       title: "STORIES",
-      description: "Magical stories and adventures for imagination",
+      description: "Stories for comprehension and imagination",
       icon: BookMarked,
       image: "/hero-stories.jpg",
       color: "from-purple-400 to-pink-300",
       textColor: "text-purple-600",
+      url: "https://www.youtube.com/playlist?list=PLx6Un6HiRuzKCWXvrpX_ClT1uimAQm371",
       videos: [
         "Fairy Tales",
         "Adventure Stories",
@@ -63,7 +66,6 @@ export default function Home() {
       ],
     },
   ];
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-blue-50 to-white">
       {/* Header */}
@@ -174,7 +176,7 @@ export default function Home() {
                   <Button
                     className={`w-full font-fredoka font-bold rounded-full bg-gradient-to-r ${playlist.color} text-white hover:shadow-lg transition-all hover:scale-105`}
                     onClick={() =>
-                      window.open("https://youtube.com/@kidsvids321", "_blank")
+                      window.open(playlist.url, "_blank")
                     }
                   >
                     Watch Now →
@@ -201,12 +203,12 @@ export default function Home() {
                   "Learn through music with catchy tunes about numbers, letters, colors, and more!",
               },
               {
-                title: "📚 Fun Lessons",
+                title: "📚 Engaging Lessons",
                 description:
                   "Engaging educational content that makes learning enjoyable and easy to understand.",
               },
               {
-                title: "🌟 Magical Stories",
+                title: "🌟 Creative stories",
                 description:
                   "Inspiring stories that spark imagination and creativity in young minds.",
               },
@@ -252,7 +254,7 @@ export default function Home() {
             © 2025 Kidz-Vidz. All rights reserved.
           </p>
           <p className="text-gray-400 font-comfortaa text-sm">
-            Making learning fun, one video at a time! 🎉
+           Productive content for children: music, stories and lessons! 🎉
           </p>
         </div>
       </footer>
