@@ -72,17 +72,12 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-blue-100 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-pink-400 via-yellow-300 to-blue-400 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">
-              K
-            </div>
-            <div>
-              <h1 className="text-2xl font-fredoka font-bold bg-gradient-to-r from-pink-500 via-yellow-500 to-blue-500 bg-clip-text text-transparent">
-                Kidz-Vidz
-              </h1>
-              <p className="text-xs text-gray-600 font-comfortaa">
-                Fun Learning for Kids
-              </p>
-            </div>
+            <img
+              src="/logo.jpg"
+              alt="Kidz-Vidz Logo"
+              className="w-16 h-16 object-contain"
+            />
+            
           </div>
           <Button
             className="bg-gradient-to-r from-pink-500 to-orange-400 hover:from-pink-600 hover:to-orange-500 text-white font-fredoka font-bold rounded-full px-6 shadow-lg hover:shadow-xl transition-all"
@@ -151,27 +146,7 @@ export default function Home() {
                     {playlist.description}
                   </p>
 
-                  {/* Sample Videos */}
-                  {isHovered && (
-                    <div className="mb-4 p-3 bg-blue-50 rounded-lg border border-blue-200 animate-in fade-in duration-200">
-                      <p className="text-xs font-fredoka font-bold text-blue-900 mb-2">
-                        Featured Videos:
-                      </p>
-                      <ul className="text-xs text-gray-700 space-y-1">
-                        {playlist.videos.slice(0, 3).map((video, idx) => (
-                          <li key={idx} className="flex items-start gap-2">
-                            <span className="text-pink-500 font-bold">•</span>
-                            <span>{video}</span>
-                          </li>
-                        ))}
-                        {playlist.videos.length > 3 && (
-                          <li className="text-gray-500 italic">
-                            + {playlist.videos.length - 3} more videos
-                          </li>
-                        )}
-                      </ul>
-                    </div>
-                  )}
+                
 
                   <Button
                     className={`w-full font-fredoka font-bold rounded-full bg-gradient-to-r ${playlist.color} text-white hover:shadow-lg transition-all hover:scale-105`}
@@ -254,7 +229,7 @@ export default function Home() {
             © 2025 Kidz-Vidz. All rights reserved.
           </p>
           <p className="text-gray-400 font-comfortaa text-sm">
-           Productive content for children: music, stories and lessons! 🎉
+            Productive content for children: music, stories and lessons! 🎉
           </p>
         </div>
       </footer>
