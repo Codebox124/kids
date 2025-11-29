@@ -205,14 +205,14 @@ export default function Home() {
       {/* CTA Section */}
       <section className="container mx-auto px-4 py-16 md:py-24">
         <div className="bg-gradient-to-r from-yellow-300 via-pink-300 to-blue-300 rounded-3xl p-8 md:p-12 text-center shadow-2xl">
-          <h3 className="text-3xl md:text-4xl font-fredoka font-bold text-gray-800 mb-4">
+          <h3 className="text-2xl md:text-4xl font-fredoka font-bold text-gray-800 mb-4">
             Ready for More Fun? 🚀
           </h3>
-          <p className="text-gray-700 font-comfortaa text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-gray-700 font-comfortaa text-md mb-8 max-w-2xl mx-auto">
             Subscribe to our YouTube channel to get new videos every week!
           </p>
           <Button
-            className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-fredoka font-bold text-lg px-8 py-6 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
+            className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-fredoka font-bold text-lg md:px-8 py-6  px-4 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
             onClick={() =>
               window.open("https://youtube.com/@kidsvids321", "_blank")
             }
