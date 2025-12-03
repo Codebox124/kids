@@ -38,7 +38,7 @@ export default function Home() {
       image: "/hero-lessons.jpg",
       color: "from-blue-400 to-green-300",
       textColor: "text-blue-600",
-      url: "https://www.youtube.com/playlist?list=PLx6Un6HiRuzLOS5jqAokNBGQwfEoeLrIY&playnext=1&index=1",
+      url: " https://www.youtube.com/playlist?list=PLx6Un6HiRuzLOS5jqAokNBGQwfEoeLrIY",
       videos: [
         "ABC Learning",
         "Number Basics",
