@@ -82,7 +82,7 @@ export default function Home() {
           <Button
             className="bg-gradient-to-r from-pink-500 to-orange-400 hover:from-pink-600 hover:to-orange-500 text-white font-fredoka font-bold rounded-full px-6 shadow-lg hover:shadow-xl transition-all"
             onClick={() =>
-              window.open("https://youtube.com/@kidsvids321", "_blank")
+              window.open("https://www.youtube.com/@KidzVidzABC", "_blank")
             }
           >
             Subscribe on YouTube
@@ -214,7 +214,7 @@ export default function Home() {
           <Button
             className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-fredoka font-bold text-lg md:px-8 py-6  px-4 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
             onClick={() =>
-              window.open("https://youtube.com/@kidsvids321", "_blank")
+              window.open("https://www.youtube.com/@KidzVidzABC", "_blank")
             }
           >
             Subscribe Now on YouTube ❤️
@@ -226,7 +226,7 @@ export default function Home() {
       <footer className="bg-gray-800 text-white py-8 mt-16">
         <div className="container mx-auto px-4 text-center">
           <p className="font-fredoka font-bold mb-2">
-            © 2025 Kidz-Vidz. All rights reserved.
+            © 2026 Kidz-Vidz. All rights reserved.
           </p>
           <p className="text-gray-400 font-comfortaa text-sm">
             Productive content for children: music, stories and lessons! 🎉
