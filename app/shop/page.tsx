@@ -80,30 +80,6 @@ const products: Product[] = [
     storeUrl: STOREFRONT.payhip,
     storeLabel: "Get the pack",
   },
-  {
-    title: "Kidz-Vidz Big Activity Book",
-    description:
-      "Our songs as a printed book: letters, numbers, colors, shapes, days, months and seasons in one paperback.",
-    priceNote: "Printed paperback, shipped to you",
-    icon: BookOpen,
-    color: "from-orange-400 to-pink-400",
-    textColor: "text-orange-600",
-    image: "/hero-lessons.jpg",
-    storeUrl: STOREFRONT.books,
-    storeLabel: "Order the book",
-  },
-  {
-    title: "Kidz-Vidz Merch",
-    description:
-      "Posters, tote bags and youth tees printed to order in the USA by our print partner.",
-    priceNote: "Printed to order, shipped to you",
-    icon: Shirt,
-    color: "from-green-400 to-blue-400",
-    textColor: "text-green-600",
-    image: "/hero-songs.jpg",
-    storeUrl: STOREFRONT.merch,
-    storeLabel: "See the merch",
-  },
 ];
 
 function StoreButton({ product }: { product: Product }) {
