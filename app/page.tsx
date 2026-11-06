@@ -68,28 +68,6 @@ export default function Home() {
   ];
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-blue-50 to-white">
-      {/* Header */}
-      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-blue-100 shadow-sm">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <img
-              src="/logo.jpg"
-              alt="Kidz-Vidz Logo"
-              className="w-16 h-16 object-contain"
-            />
-            
-          </div>
-          <Button
-            className="bg-gradient-to-r from-pink-500 to-orange-400 hover:from-pink-600 hover:to-orange-500 text-white font-fredoka font-bold rounded-full px-6 shadow-lg hover:shadow-xl transition-all"
-            onClick={() =>
-              window.open("https://www.youtube.com/@KidzVidzABC", "_blank")
-            }
-          >
-            Subscribe on YouTube
-          </Button>
-        </div>
-      </header>
-
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-12 md:py-20">
         <div className="text-center mb-16">
@@ -202,6 +180,25 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Shop Section */}
+      <section className="container mx-auto px-4 py-16 md:py-24">
+        <div className="text-center">
+          <h3 className="text-3xl md:text-4xl font-fredoka font-bold text-gray-800 mb-4">
+            Visit the Kidz-Vidz Shop 🛍️
+          </h3>
+          <p className="text-gray-600 font-comfortaa text-md mb-8 max-w-2xl mx-auto">
+            Printable activity packs, our activity book and merch that match
+            the videos — letters, numbers, colors and shapes kids can practice
+            on paper.
+          </p>
+          <a href="/shop">
+            <Button className="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white font-fredoka font-bold text-lg md:px-8 py-6 px-4 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105">
+              Go to the Shop →
+            </Button>
+          </a>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="container mx-auto px-4 py-16 md:py-24">
         <div className="bg-gradient-to-r from-yellow-300 via-pink-300 to-blue-300 rounded-3xl p-8 md:p-12 text-center shadow-2xl">
@@ -222,17 +219,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8 mt-16">
-        <div className="container mx-auto px-4 text-center">
-          <p className="font-fredoka font-bold mb-2">
-            © 2026 Kidz-Vidz. All rights reserved.
-          </p>
-          <p className="text-gray-400 font-comfortaa text-sm">
-            Productive content for children: music, stories and lessons! 🎉
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }
