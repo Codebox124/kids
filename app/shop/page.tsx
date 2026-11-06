@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  * so the page never points parents at a store that does not exist yet.
  */
 const STOREFRONT = {
-  payhip: "", // Digital printables storefront (Payhip, free plan)
+  payhip: "https://payhip.com/kidzvidzabc", // Digital printables storefront (Payhip, free plan)
   etsy: "", // Digital printables mirror (Etsy)
   books: "", // Activity book storefront (Lulu Direct / Amazon KDP)
   merch: "", // Print-on-demand merch storefront (Printify)
