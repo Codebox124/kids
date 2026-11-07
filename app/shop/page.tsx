@@ -9,13 +9,12 @@ import {
   Shirt,
   ShieldCheck,
   Download,
-  Truck,
 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Shop | Kidz-Vidz",
   description:
-    "Printable activity packs, activity books and merch that match the Kidz-Vidz videos.",
+        "Printable activity packs that match the Kidz-Vidz videos.",
 };
 
 /**
@@ -113,7 +112,7 @@ export default function Shop() {
             Kidz-Vidz Shop 🛍️
           </h2>
           <p className="text-md md:text-xl text-gray-600 font-comfortaa max-w-2xl mx-auto">
-            Activity packs, books and merch that match the songs and lessons on
+            Activity packs that match the songs and lessons on
             our YouTube channel — made for parents and teachers of kids aged
             2–6.
           </p>
@@ -197,21 +196,13 @@ export default function Shop() {
           <h3 className="text-3xl md:text-4xl font-fredoka font-bold text-white text-center mb-12">
             How the Shop Works ✨
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-lg text-center">
               <Download className="w-8 h-8 mx-auto mb-3 text-blue-500" />
               <p className="text-2xl text-black mb-3">Instant downloads</p>
               <p className="text-gray-700 font-comfortaa text-sm">
                 Activity packs are PDF files. Buy once, download instantly,
                 print as many copies as your classroom or family needs.
-              </p>
-            </div>
-            <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-lg text-center">
-              <Truck className="w-8 h-8 mx-auto mb-3 text-purple-500" />
-              <p className="text-2xl text-black mb-3">Printed & shipped for you</p>
-              <p className="text-gray-700 font-comfortaa text-sm">
-                Books and merch are printed to order by our US partners and
-                shipped straight to your door — we never hold boxes of stock.
               </p>
             </div>
             <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-lg text-center">
